@@ -1,0 +1,17 @@
+{
+  "dataset_root": "D:\\Codex\\datasets\\BrPCD\\official",
+  "prepared_main": "D:\\Codex\\datasets\\BrPCD\\official\\prepared_20k_v2",
+  "prepared_virtual_to_real": "D:\\Codex\\datasets\\BrPCD\\official\\prepared_20k_str",
+  "main_split": "D:\\Codex\\datasets\\BrPCD\\official\\splits\\main_split.csv",
+  "virtual_to_real_split": "D:\\Codex\\datasets\\BrPCD\\official\\splits\\synthetic_to_real_split.csv",
+  "class_names": [
+    "girder",
+    "pier",
+    "deck"
+  ],
+  "protocols": {
+    "P1": "random_scene",
+    "P2": "leave_one_bridge_family_out",
+    "P3": "virtual_to_real"
+  }
+}
